@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceManifest Name="wfePkg" Version="1.0.1"
+                 xmlns="http://schemas.microsoft.com/2011/01/fabric" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+
+   <ServiceTypes>
+      <StatelessServiceType ServiceTypeName="wfeType" UseImplicitHost="true">
+   </StatelessServiceType>
+   </ServiceTypes>
+   
+   <CodePackage Name="code" Version="1.0.1">
+      <EntryPoint>
+         <ContainerHost>
+            <ImageName>plasne-microsoft.azurecr.io/hello</ImageName>
+            <Commands></Commands>
+         </ContainerHost>
+      </EntryPoint>
+      <EnvironmentVariables> 
+      </EnvironmentVariables> 
+   </CodePackage>
+ </ServiceManifest>
