@@ -14,4 +14,5 @@ The following steps were followed:
 6. Modify the ApplicationManifest.xml to include ServiceManifestImport/Policies/ContainerHostPolicies/RepositoryCredentials
 
 /src - contains all source code
+
 /pkg - contains the package created by Yeoman for deployment into Service Fabric
