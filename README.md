@@ -3,6 +3,7 @@
 This just shows some very simply source code for creating a node service, containerizing it, and then deploying it into Service Fabric.
 
 The following steps were followed:
+
 1. Create the Service Fabric: https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started-linux 
 2. Deploy an Azure Container Registry (just used portal)
 3. Create the Node application (see src)
